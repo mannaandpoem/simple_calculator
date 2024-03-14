@@ -40,3 +40,6 @@ Resets the calculator.
 
 Contributions are welcome! Please open an issue or submit a pull request.
 ```
+
+## Updates
+- Fixed division by zero error as per issue #1.
