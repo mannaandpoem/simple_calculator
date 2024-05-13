@@ -44,5 +44,9 @@ def reset():
     main_instance.calculator.reset()
     return jsonify(message="Calculator reset"), 200
 
+@app.route('/')  # Route for the root URL
+def index():
+    return render_template('index.html')  # Render the front-end page
+
 if __name__ == '__main__':
     main_instance.run()
