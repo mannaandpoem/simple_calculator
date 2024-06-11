@@ -37,6 +37,7 @@ class Calculator:
         """
         return number1 * number2
 
+
     def divide(self, number1: float, number2: float) -> float:
         """Divide the first number by the second and return the result.
 
@@ -52,6 +53,7 @@ class Calculator:
         """
         if number2 == 0:
             raise ValueError("Cannot divide by zero.")
+        return number1 / number2
         return number1 / number2
 
     def reset(self) -> None:
